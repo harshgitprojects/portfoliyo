@@ -1,0 +1,195 @@
+@media (max-width: 768px) {
+    .box1 {
+        display: flex;
+        height: 300px;
+        width: 100%;
+        margin-top: 100px;
+        background: #ffffff66;
+        color: white;
+        border-radius: -1px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        .namebox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .img {
+            height: 121px;
+            border-radius: 15px;
+            margin-left: 20px;
+            border: solid white 3px;
+        }
+        .img {
+            height: 140px;
+            width: auto;
+            border-radius: 15px;
+            margin-left: 20px;
+            border: solid white 3px;
+        }
+        h1 {
+            font-weight: 500;
+            font-size: 30px;
+            margin: 0;
+        }
+    }
+    .box2 {
+        height: 270px;
+        width: auto;
+        margin-top: 10px;
+        img {
+            height: 300px;
+            width: auto;
+        }
+    }
+    .nave-box {
+        display: flex;
+        justify-content: space-evenly;
+        height: 60px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .main-about {
+        padding: 0;
+        margin: 0;
+        margin-top: 0;
+        overflow-x: hidden;
+        .main-about-box {
+            padding-top: 0;
+            padding: 60px;
+            display: flex;
+            margin: 30px;
+            align-items: stretch;
+            flex-direction: column;
+            img {
+                width: auto;
+                height: 300px;
+            }
+        }
+        .main-about-box-contant {
+            color: white;
+            margin-left: 0;
+        }
+    }
+    .skills {
+        background: linear-gradient(45deg, #f30d5e, #9C27B0);
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        justify-content: center;
+        overflow-x: hidden;
+        align-items: center;
+        .skills-box1 {
+            box-shadow: 0 0 6px 1px black;
+            display: flex;
+            border-radius: 15px;
+            width: 300px;
+            height: 350px;
+            background: #0c0c0cc3;
+            color: #ffff;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px;
+            font-size: larger;
+            backdrop-filter: blur(6px);
+        }
+    }
+    footer {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: space-around;
+        .footer-box1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            width: auto;
+            margin: 15px;
+        }
+        .footer-box2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 80%;
+            color: white;
+        }
+    }
+    
+}
+@media (max-width: 425px){
+    .main-about-box {
+        padding-top: 0;
+        padding: 20px;
+        display: flex;
+        margin: 30px;
+        align-items: stretch;
+        flex-direction: column;
+        img {
+            width: auto;
+            height: 300px;
+        }
+    }
+    .skills {
+        background: linear-gradient(45deg, #f30d5e, #9C27B0);
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        justify-content: center;
+        overflow-x: hidden;
+        align-items: center;
+    }
+    .skills-box1 {
+        box-shadow: 0 0 6px 1px black;
+        display: flex;
+        border-radius: 15px;
+        width: 300px;
+        height: 350px;
+        background: #0c0c0cc3;
+        color: #ffff;
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+        font-size: larger;
+        backdrop-filter: blur(6px);
+    }
+    .Project-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 90%;
+        .Project-box-1 {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+    }
+    .footer-box1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: auto;
+        margin: 25px;
+        flex-wrap: wrap;
+    }
+    .footer-box2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: white;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+
+}
